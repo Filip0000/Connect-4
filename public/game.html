@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Connect 4!</title>
+        <link rel="stylesheet" href="./stylesheets/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="./javascripts/main.js"></script>
+        <script src="./javascripts/game.js"></script>
+        <link rel="ICON" href="./img/number4.png" type="image/ico" />
+    </head>
+
+    <body>
+        <div><img id="logo1" src="./img/output-onlinepngtools.png" alt="logo"></div>
+        <div id="button1"><form action="/game" method="get"><button id="restartButton">Start a new game</button></form></div>
+        <div><form action="/" method="get"><button id="goBackButton">Back</button></form></div>
+        <div id="game">
+            <div class="row">
+                <div class="col free" rowidx="0" colidx="0"></div>
+                <div class="col free" rowidx="0" colidx="1"></div>
+                <div class="col free" rowidx="0" colidx="2"></div>
+                <div class="col free" rowidx="0" colidx="3"></div>
+                <div class="col free" rowidx="0" colidx="4"></div>
+                <div class="col free" rowidx="0" colidx="5"></div>
+                <div class="col free" rowidx="0" colidx="6"></div>
+            </div>
+            <div class="row">
+                <div class="col free" rowidx="1" colidx="0"></div>
+                <div class="col free" rowidx="1" colidx="1"></div>
+                <div class="col free" rowidx="1" colidx="2"></div>
+                <div class="col free" rowidx="1" colidx="3"></div>
+                <div class="col free" rowidx="1" colidx="4"></div>
+                <div class="col free" rowidx="1" colidx="5"></div>
+                <div class="col free" rowidx="1" colidx="6"></div>
+            </div>
+            <div class="row">
+                <div class="col free" rowidx="2" colidx="0"></div>
+                <div class="col free" rowidx="2" colidx="1"></div>
+                <div class="col free" rowidx="2" colidx="2"></div>
+                <div class="col free" rowidx="2" colidx="3"></div>
+                <div class="col free" rowidx="2" colidx="4"></div>
+                <div class="col free" rowidx="2" colidx="5"></div>
+                <div class="col free" rowidx="2" colidx="6"></div>
+            </div>
+            <div class="row">
+                <div class="col free" rowidx="3" colidx="0"></div>
+                <div class="col free" rowidx="3" colidx="1"></div>
+                <div class="col free" rowidx="3" colidx="2"></div>
+                <div class="col free" rowidx="3" colidx="3"></div>
+                <div class="col free" rowidx="3" colidx="4"></div>
+                <div class="col free" rowidx="3" colidx="5"></div>
+                <div class="col free" rowidx="3" colidx="6"></div>
+            </div>
+            <div class="row">
+                <div class="col free" rowidx="4" colidx="0"></div>
+                <div class="col free" rowidx="4" colidx="1"></div>
+                <div class="col free" rowidx="4" colidx="2"></div>
+                <div class="col free" rowidx="4" colidx="3"></div>
+                <div class="col free" rowidx="4" colidx="4"></div>
+                <div class="col free" rowidx="4" colidx="5"></div>
+                <div class="col free" rowidx="4" colidx="6"></div>
+            </div>
+            <div class="row">
+                <div class="col free" rowidx="5" colidx="0"></div>
+                <div class="col free" rowidx="5" colidx="1"></div>
+                <div class="col free" rowidx="5" colidx="2"></div>
+                <div class="col free" rowidx="5" colidx="3"></div>
+                <div class="col free" rowidx="5" colidx="4"></div>
+                <div class="col free" rowidx="5" colidx="5"></div>
+                <div class="col free" rowidx="5" colidx="6"></div>
+            </div>
+        </div>
+
+    </body>
+    <script src="javascripts/client.js"></script>
+</html>
